@@ -1,0 +1,63 @@
+.headphones-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    background: linear-gradient(#f8d7e7, #e6c7ff);
+    width: 1456px;
+  }
+  
+  .headphone-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .headphone-card:hover {
+    transform: scale(1.09);
+  }
+  
+  .headphone-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .add-cart-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .headphone-card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+  }
+  
+  .headphone-card p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 6px;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+  }
+  

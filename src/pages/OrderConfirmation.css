@@ -1,0 +1,23 @@
+.order-confirmation {
+    padding: 2rem;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+  }
+  .order-confirmation h2 {
+    color: green;
+  }
+  .order-confirmation ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .back-home {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  

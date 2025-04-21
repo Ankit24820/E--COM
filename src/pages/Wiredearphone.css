@@ -1,0 +1,72 @@
+.wired-container {
+    padding: 30px;
+    background: linear-gradient(to bottom, #f8d7e7, #e6c7ff);
+    min-height: 100vh;
+    width: 1456px;  
+  }
+  
+  .wired-container h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .wired-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 20px;
+  }
+  
+  .wired-card {
+    background: #fff;
+    padding: 16px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+  }
+  
+  .wired-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .wired-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 12px;
+  }
+  
+  .wired-card h4 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .wired-card p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .rating {
+    color: #ffb600;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .wired-card button {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .wired-card button:hover {
+    background-color: #333;
+  }
+  

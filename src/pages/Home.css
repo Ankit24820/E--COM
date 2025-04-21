@@ -1,0 +1,172 @@
+.home-container {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    background: linear-gradient(to bottom, #f8d7e7, #ffffff);
+  }
+  
+  /* === HERO SECTION === */
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 4rem;
+    background: linear-gradient(to right, #f8d7e7, #e6c7ff);
+    width: 1393px;
+  }
+  
+  .hero-text h2 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  
+  .hero-text h1 {
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .hero-text span {
+    color: #ff2e63;
+  }
+  
+  .hero-image {
+    width: 400px;
+  }
+  
+  /* === FLASH SALES === */
+  .flash-sales {
+    padding: 2rem 4rem;
+    background:(to bottom,#f08635);
+    width: 100%;
+  }
+  
+  .flash-sales h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .products {
+    display: flex;
+    gap: 4.2rem;
+    overflow-x: auto;
+  }
+  
+  .product-card {
+    background: #fefefe;
+    padding: 1rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    min-width: 180px;
+    position: relative;
+  }
+  
+  .product-card img {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff2e63;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+  }
+  
+  .price {
+    font-size: 1rem;
+    margin: 8px 0;
+  }
+  
+  .price span {
+    font-weight: bold;
+    color: #2e2e2e;
+    margin-right: 8px;
+  }
+  
+  .price del {
+    color: #999;
+  }
+  
+  .rating {
+    font-size: 0.85rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .product-card button {
+    padding: 8px 12px;
+    border: none;
+    background: #ff2e63;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* === EXPERIENCE SECTION === */
+  .experience-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 4rem;
+    background-color: #e98fd3;
+    color: white;
+  }
+  
+  .experience-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .features {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .features div {
+    background: #222;
+    padding: 10px 16px;
+    border-radius: 12px;
+  }
+  
+  .buy-now {
+    background: #ff1212;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .experience-image {
+    width: 250px;
+  }
+  
+  /* === FOOTER === */
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background: #000000;
+    text-align: center;
+    border-top: 1px solid #ffdbdb;
+    width: 1456px;
+  }
+  
+  .footer div h4 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .footer div p {
+    font-size: 0.85rem;
+    color: #555;
+  }
+  

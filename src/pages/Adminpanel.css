@@ -1,0 +1,110 @@
+.admin-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Sidebar */
+  .admin-sidebar {
+    width: 220px;
+    background: linear-gradient(to bottom, #f8d7e7, #e6c7ff);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+  }
+  
+  .admin-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .admin-menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-menu li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem 0;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .admin-menu li:hover {
+    color: #ff4b91;
+  }
+  
+  .logout-btn {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 1rem;
+    transition: 0.3s;
+  }
+  
+  .logout-btn:hover {
+    color: #ff4b91;
+  }
+  
+  /* Main Content */
+  .admin-main {
+    flex: 1;
+    padding: 2rem;
+    background: #f8d7e7, #e6c7ff;
+    width: 1200px;
+  }
+  
+  /* Stats Cards */
+  .admin-stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .stat-card {
+    flex: 1;
+    background: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .stat-card p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Table */
+  .order-table {
+    background: #eaeaea;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .order-table h4 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .order-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-table th, .order-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  

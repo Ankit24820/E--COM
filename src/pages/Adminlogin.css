@@ -1,0 +1,93 @@
+/* AdminLogin.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .admin-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f2f5;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .admin-login-card {
+    background-color: #fff;
+    padding: 3rem 4rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .admin-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .brand {
+    color: #4a00e0;
+  }
+  
+  .admin-subtitle {
+    color: #777;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+  
+  .admin-login-form input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  
+  .admin-login-form input:focus {
+    border-color: #4a00e0;
+    outline: none;
+  }
+  
+  .admin-login-form button {
+    background-color: #4a00e0;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-login-form button:hover {
+    background-color: #3600a5;
+  }
+  
+  .admin-forgot,
+  .back-to-site {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #4a00e0;
+    text-decoration: none;
+  }
+  
+  .admin-forgot:hover,
+  .back-to-site:hover {
+    text-decoration: underline;
+    color: #3600a5;
+  }
+  

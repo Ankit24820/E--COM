@@ -1,0 +1,78 @@
+/* Footer Container */
+.footer {
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 40px 80px;
+    font-family: "Arial", sans-serif;
+    width: 101%;
+  }
+  
+  /* Footer Sections Layout */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Footer Section Styling */
+  .footer-section {
+    width: 22%;
+  }
+  
+  .footer-section h2,
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  /* Subscribe Box */
+  .subscribe-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .subscribe-box input {
+    border: none;
+    padding: 8px;
+    outline: none;
+    width: 160px;
+  }
+  
+  .subscribe-box button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 8px;
+    color: black;
+  }
+  
+  /* Footer Links */
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: gray;
+  }
+  
